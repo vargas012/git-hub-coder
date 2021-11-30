@@ -1,0 +1,23 @@
+$color_fondo: rgb(35, 202, 43);
+$color_primario: rgb(65, 36, 173);
+
+.color-dark2 {
+    color: $color_fondo
+}
+
+.activo {
+    background-color: $color_primario;
+    border-radius: 5px;
+}
+
+.boton1 {
+    padding: 10px;
+    margin: 10px;
+    background-color: $color_primario;
+}
+
+.bg-negro {
+    background-color: black;
+    border-radius: 4px;
+    
+}

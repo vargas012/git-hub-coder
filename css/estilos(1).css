@@ -1,0 +1,331 @@
+.navBar {
+    background-image: linear-gradient(to left, rgb(50, 115, 177), rgba(77, 77, 212, 0.781), rgb(46, 204, 191));
+    font-size: 20px;
+    font-style:unset;
+    font-weight: bold;
+    text-align: right;
+    padding: 3px;
+   
+}
+
+
+
+.margen{
+    border: 5px solid blue ;
+    padding: 10px;
+    margin: 10px;
+    width:25%;
+    height: 25%;
+}
+
+
+.gradiente {
+    background-image: linear-gradient(to left, rgb(50, 115, 177), rgba(77, 77, 212, 0.781), rgb(46, 204, 191));
+}
+
+.cuadros {
+    text-decoration: none;
+    background-color: paleturquoise;
+    color: rgb(73, 141, 197);
+    padding: 10px;
+    margin: 20px;
+}
+
+div nav ul li {
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu2 {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+.nav1 {
+    background-image: linear-gradient(to left, rgb(50, 115, 177), rgba(77, 77, 212, 0.781), rgb(46, 204, 191));
+}
+
+.font1 {
+    text-decoration-color: blanchedalmond;
+}
+
+.anchoContenido {
+    width: 700px;
+    text-align: center;
+    height: 35px;
+}
+
+.bordesRedondeados {
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 4px;
+    
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+header {
+    background-color:gainsboro;
+}
+
+footer{
+    background-image: linear-gradient(to top, rgb(20, 39, 212), rgba(22, 40, 141, 0.781), rgb(11, 38, 80));;
+}
+.footer{
+    background-image: url(../media-/texture-grass-field.jpg);
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.subrayado {
+    text-decoration: none;
+    color:ivory;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.imagenFondo {
+    background-image: url("../media-/fondo1.jpg");
+    background-size:cover;
+}
+
+@media only screen and (max-width: 400px) {
+    .imagenFondo {
+      
+       background-image: url("../media-/fondo1.jpg");
+       
+    }
+    .footer-flex-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+   
+    .bordesRedondeados {
+        width: 50px;
+    }
+}
+
+
+
+.font {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.font2 {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight:normal;
+    font-size: inherit;
+    
+}
+
+.li {
+    list-style-image: url(../media-/pngegg\ \(1\).png);
+    
+}
+
+.padding {
+    padding: 10px;
+    word-spacing: 300px;
+    
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    width: 100%;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hijo-flex {
+    padding: 50px 50px; 
+    background-color:rgb(77, 197, 201); 
+    font-size: 20px;
+}
+
+.hijo-flex2 {
+    padding: 50px 50px; 
+    background-color: rgb(74, 74, 182); 
+    font-size: 20px
+
+}
+
+
+
+.flex-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-flex-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 800px;
+    /*border: 5px solid rgb(221, 37, 23);*/
+}
+
+.hijo {
+    /*border: 4px solid rgb(51, 233, 66);*/
+    display: grid;
+    grid-template-columns: 1000 ;
+    grid-template-rows: 600 600 600; 
+}
+.hijo1-2 {
+    
+    /*border: 8px solid rgba(196, 20, 166, 0.685)*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100 100 100;
+}
+.hijo2 {
+    /*border: 4px solid rgb(24, 69, 218);*/
+    display: grid;
+   grid-template-columns:100 100  ;
+   grid-auto-rows: 100px;
+   
+}
+
+
+main {
+    height: 1000
+}
+.logoW {
+    width: 100px;
+}
+
+
+
+.grid1 {
+    display: grid;
+    grid-template-areas: " header "
+                          "main foto2"
+                        "footer "
+                            ;
+    
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.foto2 {
+    grid-area: foto2 ;
+
+}
+
+.trasform {
+    transform: translate(-330px , -50px );
+    
+}
+
+.transicion {
+    height: 70px;
+    transition: height 1s;
+    
+}
+.transicion:hover {
+    height: 200px;
+    background-color: rgba(13, 23, 116, 0.849);
+}
+
+.fadeInLetras {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animacion1 {
+    animation-duration: 2s;
+    animation-name: aparecer1;
+}
+
+@keyframes aparecer1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.inputBar {
+    width: 180px;
+    height: 30px;
+    transition: all 1s;
+}
+
+.inputBar:focus {
+    width: 200px;
+    height: 40px;
+    font-size: 24;
+}
+
+.carrusel{
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.width{
+    width: 100;
+    height: 100;
+  }
